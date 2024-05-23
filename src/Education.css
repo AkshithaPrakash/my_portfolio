@@ -1,0 +1,46 @@
+.education-section {
+  padding: 2em;
+  background-color: white;
+  margin: 2em auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.institution-image img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #07bbe3;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.institution-image img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.institution-details {
+  margin-top: 1em;
+}
+
+.institution-details h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  color: #0cc653;
+}
+
+.institution-details p {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #333;
+}
